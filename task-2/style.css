@@ -1,5 +1,54 @@
+/*
+Task 2:
+
+Add the background images from the assets folder to each of the sections with the classes info-1, info-2 and info-3.
+
+Set the size of the background to cover the whole section element.
+
+Make sure that the background does not repeat and that the position is set to bottom.
+*/
+
+/*
+Bonus for task 2:
+
+Add padding to the sections.
+
+Make the sections appear side-by-side.
+
+Add a border radius to the sections.
+*/
+
 .info-1, .info-2, .info-3 {
     width: 30%;
     color: white;
     text-shadow: 1px 1px 1px black;
+    
+    /* Task 2 */
+    background-size: 100%;    
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+    /* Bonus */
+    padding: 20px;
+    margin-left:5px;
+    margin-right:5px;
+    display: block;
+    position: relative;
+    float: left;
+    border-radius: 5px;
+}
+
+.info-1
+{
+    background-image: url(./assets/task2-bg.jpeg);
+}
+
+.info-2
+{
+    background-image: url(./assets/task2-bg1.jpeg);
+}
+
+.info-3
+{
+    background-image: url(./assets/task2-bg2.jpg);
 }
